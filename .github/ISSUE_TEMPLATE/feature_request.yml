@@ -1,0 +1,38 @@
+name: Feature Request
+description: Suggest a new idea or improvement
+title: "[FEATURE]"
+labels:
+  - feature
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please fill out the details below.
+
+  - type: input
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the issue or opportunity this feature addresses.
+      placeholder: "Describe the problem..."
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: How should this feature work? What should it do?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any alternative solutions or workarounds?
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context, mockups, or examples here.
+

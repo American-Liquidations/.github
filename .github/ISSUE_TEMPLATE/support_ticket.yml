@@ -1,0 +1,42 @@
+name: Support Ticket
+description: Request help or clarification
+title: "[SUPPORT]"
+labels:
+  - help wanted
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the details of your support request below.
+
+  - type: textarea
+    id: help_request
+    attributes:
+      label: What do you need help with?
+      description: Describe your issue or question in detail.
+
+  - type: textarea
+    id: steps_taken
+    attributes:
+      label: What have you tried so far?
+      description: List any troubleshooting or research you've done.
+
+  - type: input
+    id: relevant_links
+    attributes:
+      label: Relevant links or resources
+      description: Add any links to related issues, documentation, or code.
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Priority or urgency
+      description: How urgent is this request?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+
